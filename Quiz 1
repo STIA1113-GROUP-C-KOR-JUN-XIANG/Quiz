@@ -8,7 +8,7 @@ b.	.java
 c.	.class
 d.	.txt
 
- Answer: __b____
+ Answer: b
 
 2. The Java compiler generates
 a.	machine code
@@ -16,7 +16,7 @@ b.	source code
 c.	byte code
 d.	HTML
 
-Answer: __c____
+Answer: c
 
  3. JVM stands for
 a.	Java Variable Machine
@@ -24,11 +24,11 @@ b.	Java Variable Method
 c.	Java Virtual Method
 d.	Java Virtual Machine
  
- Answer: ___d___
+ Answer: d
 
 4. Write a Java program to print the sum of two numbers.
  
- Answer: int x, y, sum;
+ Answer: 	int x, y, sum;
 		x=1;
 		y=2;
 		sum = x+y;
@@ -43,16 +43,15 @@ a.	//
 b.	/*
 c.	*/
 d.	/**
-Answer: ___a___
+Answer: a
 
- 
 7. Which of the following are not valid assignment statements?
 a.	sum = 9;
 b.	72 = cost;
 c.	price = 129;
 d.	ans = 'y';
  
- Answer: ___b___
+ Answer: b
 
 8. Which of the following are valid Java identifiers?
 a.	myFirstProgram
@@ -62,11 +61,7 @@ d.	David'sFirstProgram
 e.	First Program
 f.	FIRST_PROGRAM
  
- Answer: ___a___
-
-
-
-
+ Answer: a
 
 9. This is a named storage location in the computer's memory.
 a.	class
@@ -74,7 +69,7 @@ b.	keyword
 c.	variable
 d.	operator
 
-  Answer: ___c___
+  Answer: c
 
 10.This keyword is used to declare a named constant.
 a.	constant
@@ -82,7 +77,7 @@ b.	namedConstant
 c.	final
 d.	concrete
 
-Answer: ___c___
+Answer: c
 
 11. Which of the following is not primitive data type?
 a.	String
@@ -90,21 +85,19 @@ b.	double
 c.	boolean
 d.	int
  
- Answer: ___a___
+ Answer: a
 
 12. Write Java statements that accomplish the following.
 i.	Declare int variables a and b.
 ii.	Initialize an int variable x to 10 and a char variable ch to 'y'.
 iii.	Declare and initialize a double variable payRate to 12.50.
 iv.	Declare a boolean variable ans and set the value of ans to true.
-  Answer: 	int a,b;
-		a=10;
-		b=20;
-		int x=10;
-		char ch='y';
-		double payRate=12.5;
-		boolean ans=true;
-
+Answer: 	
+i.   int a,b;
+ii.  int x=10;
+     char ch='y';
+iii. double payRate=12.50;
+iv.  boolean ans=true;
 
 13. Write the output of the following expressions.
 i.	System.out.println(13 / 4);
@@ -117,14 +110,14 @@ vii.	System.out.println(14 + 5 % 2 - 3);
 viii.	System.out.println(15.0 + 3 / 2);
 
 Answer: 
-3
-5
-1
--2
-4.25
--2.0
-12
-16.0
+i.    3
+ii.   5
+iii.  1
+iv.   -2
+v.    4.25
+vi.   -2.0
+vii.  12
+viii. 16.0
 
 14. What is the value of each variable after the last statement executes?
 int a, b, c;
@@ -145,7 +138,7 @@ y = a / 4.0 + 15 % 4 - 3.5;
 
 15. Suppose x, y, and sum are int variables and z is a double variable. What value is assigned to sum variable after statement executes? Suppose x = 3, y = 5, and z = 14.1.
 sum = x + y + (int) z;
-  Answer: 22
+  Answer: sum = 22
 
 16. Write equivalent statements using combined assignment for the following, if possible.
 i.	x = 2 * x;
@@ -153,14 +146,10 @@ ii.	x = x + y - 2;
 iii.	sum = sum + num;
 iv.	y = y / (x + 5);
 
-Answer: 	int x = 1;
-		int y = 2;
-		int num = x+y;
-		int sum = 15;
-		x=2*x;
-		x=x+y-2;
-		sum= sum+num;
-		y=y/(x+5);
+Answer: 	i.   int x *= 2;
+		ii.  x += y - 2;
+		iii. sum += num;
+		iv.  y /= (x + 5);
 
 17. Change the SampleProgram.java program so that it displays Programming is fun! instead of Hello World!.
 class SampleProgram
